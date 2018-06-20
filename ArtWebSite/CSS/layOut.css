@@ -9,8 +9,9 @@
     margin:4rem auto;
     grid-gap:10px;
     min-width:1214px;
+    max-height:1015px;
 }
-nav{
+.name nav{
     grid-column:span 10;
     background-color:black;
     position:fixed;
@@ -33,3 +34,18 @@ nav{
     grid-column: span 9;
     grid-row: span 9;
 }
+.bottom nav {
+    background-color: black;
+    width: 100%;
+    bottom:0;
+}
+    .bottom nav ul {
+        display:flex;
+        justify-content:flex-start;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+        .bottom nav ul li {
+            text-align: center;
+            flex-basis:15%
+        }
