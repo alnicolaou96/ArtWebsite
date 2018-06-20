@@ -1,0 +1,23 @@
+﻿nav{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+nav ul li{
+    list-style:none;
+}
+.pic{
+    background-color:lightsalmon;
+}
+.twoDimensional{
+    background-color:lightsalmon;
+}
+.about{
+    background-color:lightsalmon;
+}
+.threeDimensional{
+    background-color:lightsalmon;
+}
+body{
+    background-color:rgb(241, 245, 248);
+}
+

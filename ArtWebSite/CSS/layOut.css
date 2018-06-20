@@ -1,0 +1,35 @@
+﻿body{
+    margin:0px auto;
+}
+.container{
+    display:grid;
+    grid-template-rows:repeat(18,50px);
+    grid-template-columns:repeat(18,1fr);
+    width:90%;
+    margin:4rem auto;
+    grid-gap:10px;
+    min-width:1214px;
+}
+nav{
+    grid-column:span 10;
+    background-color:black;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+.twoDimensional{
+    grid-column:span 9;
+    grid-row:span 9;
+}
+.pic {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+.about{
+    grid-column:span 6;
+    grid-row:span 6;
+}
+.threeDimensional {
+    grid-column: span 9;
+    grid-row: span 9;
+}
