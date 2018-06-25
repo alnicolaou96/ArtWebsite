@@ -10,13 +10,28 @@
     grid-gap:10px;
     min-width:1214px;
     max-height:1015px;
+    margin-bottom:150px;
 }
 .name nav{
     grid-column:span 10;
     background-color:black;
-    position:fixed;
     width:100%;
-    top:0;
+}
+    .name nav ul {
+        display: flex;
+        align-items: center;
+        height:50px;
+        margin-top:75px;
+        margin-bottom:75px;
+    }
+.name li{
+    flex-basis:15%;
+}
+.name img{
+    height:150px;
+    width:auto;
+    border-radius:50%;
+    border:10px solid black;
 }
 .twoDimensional{
     grid-column:span 9;
@@ -38,14 +53,21 @@
     background-color: black;
     width: 100%;
     bottom:0;
+    position:fixed;
 }
     .bottom nav ul {
-        display:flex;
-        justify-content:flex-start;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height:20px;
     }
         .bottom nav ul li {
             text-align: center;
-            flex-basis:15%
+            flex-basis:10%;
+        }
+
+        .twitter{
+            display:flex;
+            align-items:center;
+            justify-content:center;
         }

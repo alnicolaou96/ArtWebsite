@@ -1,6 +1,6 @@
-﻿nav{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:white;
+﻿nav {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
 }
 nav ul li{
     list-style:none;
@@ -20,5 +20,12 @@ nav ul li{
 body{
     background-color:rgb(241, 245, 248);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:lightsalmon;
 }
 
